@@ -13,7 +13,7 @@ url_requires_http = 'https://www.google.com'
 browser.get(url_requires_http)
 ```
 
-![css selector in Chrome developer tool](../src/inspect_element_css_selector.png)
+![css selector in Chrome developer tool](src/inspect_element_css_selector.png)
 
 ``` css selector = tag#id.class[attribute=value] ```
 
