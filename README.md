@@ -24,7 +24,8 @@ search_bar.send_keys('text')
 search_bar.submit() 
 # or browser.find_element_by_css_selector("input[value='Google Search']").click()
 ```
-
+```x_path = .//tag[@attr='value']
+x_path = .//tag[attr] means grab any element that has that attribute```
 
 ```python
 ## /: selects fr the root node ;'/head' does NOT work, '/html/head' works
