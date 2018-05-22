@@ -1,3 +1,4 @@
+# Selenium "Cheat"/Reference Sheet
 
 ## Getting Started
 
@@ -24,8 +25,17 @@ search_bar.send_keys('text')
 search_bar.submit() 
 # or browser.find_element_by_css_selector("input[value='Google Search']").click()
 ```
-```x_path = .//tag[@attr='value']
-x_path = .//tag[attr] means grab any element that has that attribute```
+## X-Path
+X-Path stands for XML Path Language. XPath uses "path-like" syntax to identify and navigate
+nodes in an XML document.
+
+### Difference Between XML and HTML
+XML and HTML are both markup languages. The differences are that (1) XML is meant to store data while html was designed to display data with a focus on how data loads and (2) html has predefined tags. 
+
+```python
+x_path = .//tag[@attr='value']
+x_path = .//tag[attr] means grab any element that has that attribute
+```
 
 ```python
 ## /: selects fr the root node ;'/head' does NOT work, '/html/head' works
