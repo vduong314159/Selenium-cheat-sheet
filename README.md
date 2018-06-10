@@ -113,6 +113,14 @@ except TimeoutException:
 `By.CSS_SELECTOR`, `By.XPATH`
 `EC.element_to_be_clickable`, `EC.visibility_of_element_located`, `EC.alert_is_present`
 
+```
+file_input = file_input.send_keys("/absolute/path/to/file")
+```
 
+```
+from selenium.webdriver.support.ui import Select
+dropdown_list = Select(browser.find_element_by_xpath(".//select"))
+dropdown_list.select_by_visible_text("United States")
+```
 
 
